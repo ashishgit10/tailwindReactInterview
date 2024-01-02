@@ -80,10 +80,7 @@ const Home = () => {
 
           </div>
         </div>
-
-
         <div className='md:w-[60%]'>
-
           <div className='bg-black bg-opacity-5 backdrop-filter backdrop-blur-md border-blue-50 border-2 rounded-3xl mt-3 md:mt-0 flex justify-center flex-col items-center p-4 '>
             <div className='flex w-full'>
               <div className='md:pr-20'>
@@ -138,7 +135,6 @@ const Home = () => {
                   <img className='w-[30px]' src={node}/>NodeJs :</span>
                   <progress className='h-2 text-blue' max="100" value="50">40%</progress>
                 </div>
-
               </div>
             </div>
           </div>
