@@ -37,7 +37,7 @@ const Home = () => {
     window.location.href = 'https://github.com/ashishgit10/';
   };
   return (
-    <div className='pt-5 p-[10px] bg-gradient-to-r from-cyan-500 to-blue-500 sm:h-screen'>
+    <div className='pt-5 p-[10px] bg-gradient-to-r from-sky-300 to-pink-300 sm:h-screen'>
       <div className='md:flex md:max-w-[65rem] md:justify-between md:m-auto'>
         <div className='w-full md:max-w-[25rem]'>
           <div className=' bg-black bg-opacity-5 backdrop-filter backdrop-blur-md rounded-3xl pb-7 flex justify-center flex-col items-center p-4 border-blue-50 border-2 text-center'>
