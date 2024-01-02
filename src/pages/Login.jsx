@@ -32,7 +32,7 @@ const Login = () => {
                 <label htmlFor='email' className='text-xs'>Password</label>
                 <div className='flex relative justify-center items-center'>
                   <img className="w-5 absolute top-2 left-1" src={lock} /></div>
-                <input className='px-7 py-1 border-2 placeholder:text-sm flex-grow' type='email' placeholder='Enter your Password' />
+                <input className='px-7 py-1 border-2 placeholder:text-sm flex-grow' type='password' placeholder='Enter your Password' />
               </div>
             </div>
             <div className='flex px-2 pt-1 justify-between'>

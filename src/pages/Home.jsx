@@ -38,9 +38,9 @@ const Home = () => {
   };
   return (
     <div className='pt-5 p-[10px] bg-gradient-to-r from-cyan-500 to-blue-500 sm:h-screen'>
-      <div className='md:flex md:max-w-[55rem] md:justify-between md:m-auto'>
-        <div className='w-full md:max-w-[20rem]'>
-          <div className=' bg-black bg-opacity-10 backdrop-filter backdrop-blur-md rounded-3xl pb-7 flex justify-center flex-col items-center p-4 border-blue-50 border-2 text-center'>
+      <div className='md:flex md:max-w-[65rem] md:justify-between md:m-auto'>
+        <div className='w-full md:max-w-[25rem]'>
+          <div className=' bg-black bg-opacity-5 backdrop-filter backdrop-blur-md rounded-3xl pb-7 flex justify-center flex-col items-center p-4 border-blue-50 border-2 text-center'>
             <div>
               <img className='w-20 border-2 rounded-full' src={logo} />
             </div>
@@ -52,7 +52,7 @@ const Home = () => {
               <div className='bg-blue-200 py-1 rounded-md px-6 hover:bg-blue-400 cursor-pointer'>Message</div>
             </div>
           </div>
-          <div className=' bg-black bg-opacity-10 backdrop-filter border-blue-50 border-2 backdrop-blur-md rounded-3xl pb-7 flex justify-center flex-col items-center p-4 mt-3'>
+          <div className=' bg-black bg-opacity-5 backdrop-filter border-blue-50 border-2 backdrop-blur-md rounded-3xl pb-7 flex justify-center flex-col items-center p-4 mt-3'>
             <div className='flex justify-between items-center w-full border-b-[1px] border-gray-400'>
               <div className='flex pb-2'>
                 <img className='w-6 pr-1' src={web} /><div className='text-white'>Website</div></div>
@@ -62,19 +62,19 @@ const Home = () => {
             <div className='flex justify-between items-center w-full border-b-[1px] border-gray-400'>
               <div className='flex items-center pb-2 pt-2'>
                 <img className='w-6 pr-1' src={insta} /><div className='text-white'>Instagram</div></div>
-              <div className='text-white'>Your URL</div>
+              <div className='text-white'>@instaashish10</div>
 
             </div>
             <div className='flex justify-between items-center w-full border-b-[1px] border-gray-400'>
               <div className='flex items-center pb-2 pt-2'>
                 <img className='w-6 pr-1' src={tweet} /><div className='text-white'>X.com</div></div>
-              <div className='text-white'>Your URL</div>
+              <div className='text-white'>@tweetashish10</div>
 
             </div>
             <div className='flex justify-between items-center w-full border-b-[1px] border-gray-400'>
               <div className='flex items-center pb-2 pt-2'>
                 <img className='w-6 pr-1' src={fb} /><div className='text-white'>Facebook</div></div>
-              <div className='text-white'>Your URL</div>
+              <div className='text-white'>@fbashish10</div>
 
             </div>
 
@@ -84,7 +84,7 @@ const Home = () => {
 
         <div className='md:w-[60%]'>
 
-          <div className='bg-black bg-opacity-10 backdrop-filter backdrop-blur-md border-blue-50 border-2 rounded-3xl mt-3 md:mt-0 flex justify-center flex-col items-center p-4 '>
+          <div className='bg-black bg-opacity-5 backdrop-filter backdrop-blur-md border-blue-50 border-2 rounded-3xl mt-3 md:mt-0 flex justify-center flex-col items-center p-4 '>
             <div className='flex w-full'>
               <div className='md:pr-20'>
                 <div className='text-white'>Enter name :</div>
@@ -108,7 +108,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className='bg-black bg-opacity-10 backdrop-filter backdrop-blur-md border-blue-50 border-2 rounded-3xl pb-7 mt-3 flex justify-cener flex-col p-4 '>
+          <div className='bg-black bg-opacity-5 backdrop-filter backdrop-blur-md border-blue-50 border-2 rounded-3xl pb-7 mt-3 flex justify-cener flex-col p-4 '>
             <div>
               <h1 className='text-white'>Professional Skill</h1>
               <div>

@@ -35,9 +35,9 @@ const ResetPassword = () => {
         <div className='pt-2 text-sm'> Please enter your new password</div>
         <div className='flex flex-col pt-3'>
           <label htmlFor='email' className='text-xs'>New Password</label>
-          <input className='px-3 border-2 placeholder:text-xs' type='email' placeholder='Your Password' required /></div>
+          <input className='px-3 border-2 placeholder:text-xs  focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500' type='password' placeholder='Your Password' required /></div>
         <label htmlFor='email' className='text-xs mt-2'>Re-enter your Password</label>
-        <input className='px-3 border-2 placeholder:text-xs  w-[100%]' type='email' placeholder='Your Password' required />
+        <input className='px-3 border-2 placeholder:text-xs  w-[100%]  focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500' type='password' placeholder='Your Password' required />
         <button className='border-2 mt-4 text-white w-full bg-sky-700 rounded-md text-xs py-1'> Reset Password</button>
 
         <div>

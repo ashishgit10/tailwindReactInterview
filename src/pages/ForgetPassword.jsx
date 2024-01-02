@@ -8,7 +8,7 @@ const ForgetPassword = () => {
         <div className='pt-2 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae ipsum dolor sit amet consectetur.</div>
         <div className='flex flex-col pt-3'>
                 <label htmlFor='email' className='text-xs'>Email Address</label>
-                <input className='px-3 border-2 placeholder:text-sm' type='email' placeholder='Your Email' required/></div>
+                <input className='px-3 border-2 placeholder:text-sm  focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500' type='email' placeholder='Your Email' required/></div>
             <button className='border-2 mt-4 text-white w-full bg-sky-700 rounded-md text-xs py-1'>Request Reset Link</button>
             </div>
       </div>
