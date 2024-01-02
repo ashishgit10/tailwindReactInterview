@@ -6,6 +6,29 @@ import js from "../assets/js.svg"
 import firebase from "../assets/firebase.svg"
 
 const Home = () => {
+  const skillsData = [
+    {
+      id: "1",
+      image: react,
+      name: "React-Native"
+    },
+    {
+      id: "2",
+      image: node,
+      name: "Node.js"
+    },
+    {
+      id: "3",
+      image: js,
+      name: "Javascript"
+    },
+    {
+      id: "4",
+      image: firebase,
+      name: "Firebase"
+    },
+  ];
+
   const redirectToGitHub = () => {
     window.location.href = 'https://github.com/ashishgit10/';
   };
@@ -32,23 +55,14 @@ const Home = () => {
           <button className='bg-white px-6 mt-4 rounded text-sm' onClick={redirectToGitHub}>GitHub</button>
         </div>
         <div className='sm:ml-4 text-center pb-8'>
-
           <h1 className='sm:pl-4 text-lg uppercase font-bold'>SKILL</h1>
-          <div className=' w-56 h-40 sm:ml-4 rounded-xl grid grid-cols-2 gap-2'>
-            <div className='bg-white p-2 text-sm'>
-              <img className='w-[45px]' src={react} />
-              React-Native
-            </div>
-            <div className='bg-white p-3 text-sm text-left'>
-              <img className='w-[45px]' src={node} />
-              Node.js
-            </div>  <div className='bg-white p-2 text-sm'>
-              <img className='w-[45px]' src={js} />
-              Javascript
-            </div>  <div className='bg-white p-2 text-sm'>
-              <img className='w-[45px]' src={firebase} />
-              Firebase
-            </div>
+          <div className='w-56 h-40 sm:ml-4 rounded-xl grid grid-cols-2 gap-2'>
+            {skillsData.map((skill) => (
+              <div key={skill.id} className='bg-white p-2 text-sm'>
+                <img className='w-[45px]' src={skill.image} />
+                {skill.name}
+              </div>
+            ))}
           </div>
         </div>
       </div>

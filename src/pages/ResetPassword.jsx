@@ -46,7 +46,7 @@ const ResetPassword = () => {
           </div>
         </div>{
           pass.map(passes => (
-            <div className='flex text-sm'>
+            <div key={passes.id} className='flex text-sm'>
               <input type="radio" checked className='mr-2 accent-green-500' />
               <div>{passes.rule}</div>
             </div>
