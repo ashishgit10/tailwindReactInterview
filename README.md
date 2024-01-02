@@ -1,4 +1,3 @@
-```markdown
 # Coderscrux Hiring - Tailwind React Interview
 
 Welcome to the Coderscrux Hiring process for the Tailwind React Interview!
