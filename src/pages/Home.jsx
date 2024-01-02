@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='md:max-w-2xl m-auto w-[50%] sm:max-[65%] mt-8 flex flex-col md:flex-row md:justify-center'>
+      <div className='md:max-w-2xl m-auto w-[50%] sm:max-[65%] mt-8 flex justify-center items-center flex-col md:flex-row md:justify-center'>
         <div className='w-60 bg-sky-400 h-[200px] p-2 rounded-xl text-center'>
           <div className='flex justify-center'>
             <img className="w-20" src={logo} />
