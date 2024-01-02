@@ -7,7 +7,7 @@ import firebase from "../assets/firebase.svg"
 
 const Home = () => {
   const redirectToGitHub = () => {
-    window.location.href = 'https://github.com/ashishgit10/'; // Replace with your GitHub profile URL
+    window.location.href = 'https://github.com/ashishgit10/';
   };
   return (
     <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 sm:h-screen'>
@@ -36,18 +36,18 @@ const Home = () => {
           <h1 className='sm:pl-4 text-lg uppercase font-bold'>SKILL</h1>
           <div className=' w-56 h-40 sm:ml-4 rounded-xl grid grid-cols-2 gap-2'>
             <div className='bg-white p-2 text-sm'>
-              <img  className='w-[45px]' src={react}/>
-            React-Native
+              <img className='w-[45px]' src={react} />
+              React-Native
             </div>
             <div className='bg-white p-3 text-sm text-left'>
-              <img  className='w-[45px]' src={node}/>
-  Node.js
+              <img className='w-[45px]' src={node} />
+              Node.js
             </div>  <div className='bg-white p-2 text-sm'>
-              <img  className='w-[45px]' src={js}/>
-            Javascript
+              <img className='w-[45px]' src={js} />
+              Javascript
             </div>  <div className='bg-white p-2 text-sm'>
-              <img  className='w-[45px]' src={firebase}/>
-           Firebase
+              <img className='w-[45px]' src={firebase} />
+              Firebase
             </div>
           </div>
         </div>
