@@ -10,12 +10,12 @@ const Home = () => {
     window.location.href = 'https://github.com/ashishgit10/'; // Replace with your GitHub profile URL
   };
   return (
-    <div className='bg-sky-100 sm:h-screen'>
+    <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 sm:h-screen'>
       <div className=' flex justify-center pt-9 px-4 max-w-2xl m-auto'>
         <div className='text-center'>
-          <h1 className=' text-sm'>A BIT ABOUT ME</h1>
-          <h1 className=' text-4xl pt-3 font-bold text-sky-700'>WHO AM I?</h1>
-          <div>I'm Ashish Kumar Sharma currently pursuing B.Tech from Rungta college of Engineering
+          <h1 className=' text-sm text-white'>A BIT ABOUT ME</h1>
+          <h1 className=' text-4xl pt-3 font-bold text-sky-300'>WHO AM I?</h1>
+          <div className='text-white'>I'm Ashish Kumar Sharma currently pursuing B.Tech from Rungta college of Engineering
             I Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nobis minima doloribus nostrum blanditiis, incidunt rerum aperiam reiciendis quisquam placeat ullam numquam mollitia cupiditate, laudantium architecto dolore at. Culpa, aspernatur!
           </div>
         </div>
