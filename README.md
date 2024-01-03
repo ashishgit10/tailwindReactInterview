@@ -27,8 +27,8 @@ Welcome to the Coderscrux Hiring process for the Tailwind React Interview!
    npm run start
    ```
 
-6. **Edit `src/app.js`:**
-   - Open the `src/app.js` file in your code editor and make the necessary changes.
+6. **Edit `src/pages/*.jsx`:**
+   - Open the `src/pages/*.jsx` files in your code editor and make the necessary changes.
 
 ## Interview Rounds
 
