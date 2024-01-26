@@ -57,7 +57,7 @@ const Resource = () => {
                 <h2 className='text-blue-700 font-bold text-2xl'>Resource</h2>
                 <h3 className='text-sm pt-2'>Handpicked content for all budding learners.</h3>
             </div>
-            <div className='flex justify-center items-center flex-col'>
+            <div className='flex justify-around items-center flex-wrap'>
                 {
                     list.map(lists => (
                         <ResBox key={lists.id} props={lists} />

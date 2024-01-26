@@ -35,14 +35,14 @@ const EventSection = () => {
     return (<>
         <div>Your college events</div>
         <div>Explore opportunities from across the globe to learn, showcase skills, gain CV points, & get hired by your dream company.</div>
-        <div className='flex justify-center flex-col items-center'>
+        <div className='flex justify-center flex-wrap items-center'>
             {
                 list.map(lists => (
-                    <div key={lists.id} className='my-6'>
-                        <div className="bg-black w-[530px] h-[240px] relative flex justify-end">
+                    <div key={lists.id} className='my-6 mx-4'>
+                        <div className="bg-black w-[380px] h-[180px] relative flex justify-end">
                             <div className='absolute text-white max-w-[45%] left-4 pt-4'>
                                 <h4>{lists.title}</h4>
-                                <h6 className='py-4'>{lists.disc}</h6>
+                                <h6 className='py-4 text-xs'>{lists.disc}</h6>
                             </div>
                             <img src={lists.img} />
                             <div className='absolute bottom-6 right-12'><button className='text-black bg-white rounded-md px-8 py-1'>{lists.btntitle}</button> </div>

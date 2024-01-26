@@ -23,8 +23,8 @@ const CompSection = () => {
 
 
     return (
-        <div className="bg-comp w-full h-[100vh] bg-no-repeat bg-center bg-cover">
-            <div className=' p-10'>
+        <div className="bg-comp w-full bg-no-repeat bg-center bg-cover pb-6">
+            <div className=' pt-8 px-10'>
                 <h2 className='text-blue-700 font-bold text-2xl'>Competitions</h2>
                 <h3 className='text-sm pt-2'>Gear up for some great EXPERIENCE!</h3>
             </div>

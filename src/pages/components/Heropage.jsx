@@ -44,7 +44,7 @@ const Heropage = () => {
     ]
     return (
         <div className='w-full'>
-            <div className='flex justify-center items-center pt-4 flex-col'>
+            <div className='flex justify-center items-center p-4 flex-col'>
 
                 <div>
                     <img src={hero} />
