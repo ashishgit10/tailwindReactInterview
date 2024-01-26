@@ -9,6 +9,8 @@ import ForgetPassword from "./pages/ForgetPassword";
 import ResetPassword from "./pages/ResetPassword";
 import ResetPasswordSuccess from "./pages/ResetPasswordSuccess";
 import Home from "./pages/Home";
+import { LandingPageAfterLogin } from "./pages/LandingPageAfterLogin";
+
 const Routers = () => {
   return (
     <BrowserRouter>
@@ -19,6 +21,7 @@ const Routers = () => {
             <Route path="/forget" element={<ForgetPassword />} />
             <Route path="/reset" element={<ResetPassword />} />
             <Route path="/reset/success" element={<ResetPasswordSuccess />} />
+            <Route path="/LandingAfterLogin" element={<LandingPageAfterLogin />} />
         </Routes>
     </BrowserRouter>
   )
