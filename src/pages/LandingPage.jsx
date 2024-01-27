@@ -4,6 +4,10 @@ import Button from './components/Button'
 import logo1 from '../assets/LandingLogo/logo1.png'
 import logo2 from '../assets/LandingLogo/logo2.png'
 import logo3 from '../assets/LandingLogo/logo3.png'
+import banner from '../assets/LandingLogo/iitbanner.png'
+import mask from "../assets/LandingLogo/Mask.png"
+import Footer from './components/Footer'
+import EmailSection from './components/EmailSection'
 const LandingPage = () => {
 
 
@@ -34,7 +38,35 @@ const LandingPage = () => {
 
     ]
 
-
+    const list2 = [{
+        id: 1,
+        img: require("../assets/LandingLogo/profilepic.png"),
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..",
+        disc: "Chair Person GFG",
+        name: "Ashish",
+    },
+    {
+        id: 2,
+        img: require("../assets/LandingLogo/profilepic.png"),
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..",
+        disc: "Chair Person GFG",
+        name: "Ashish",
+    },
+    {
+        id: 3,
+        img: require("../assets/LandingLogo/profilepic.png"),
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..",
+        disc: "Chair Person GFG",
+        name: "Ashish",
+    },
+    {
+        id: 4,
+        img: require("../assets/LandingLogo/profilepic.png"),
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..",
+        disc: "Chair Person GFG",
+        name: "Ashish",
+    },
+    ]
     return (<>
         <div className=" w-full flex justify-between  items-center mx-auto py-4 px-4 drop-shadow-lg bg-white">
 
@@ -87,7 +119,7 @@ const LandingPage = () => {
         </div>
 
 
-        <div className="relative max-[1024px]:w-[90%] mx-auto max-[1024px]:mt-4 shadow-xl">
+        <div className="relative max-[1024px]:w-[90%] mx-auto max-[1024px]:mt-4 flex justify-center">
             <Compiler />
         </div>
 
@@ -100,7 +132,7 @@ const LandingPage = () => {
             <div className='flex justify-center p-8'>
                 <img className='w-[130px]' src={logo1} />
                 <img className='w-[130px]' src={logo2} />
-                <img className='w-[130px]' src={logo3} />
+                <img className='w-[115px]' src={logo3} />
             </div>
         </div>
         <div className='mt-8 flex flex-col justify-center items-center'>
@@ -114,7 +146,7 @@ const LandingPage = () => {
         {/* About Us */}
         <div className='mt-8'>
             <div className='p-6'>
-                <h2 className='border-b-2 border-b-blue-500 inline-block'>About Us</h2>
+                <h2 className='border-b-2 border-b-blue-500 inline-block font-bold'>About Us</h2>
                 <div className='pt-6'>
                     <h2 className='font-bold'>Coders Crux Helps Engineering Students To Become Their Best Version.</h2>
                     <p className='text-xs pt-4'>At Coders Crux, we are more than just an organization; we are a community of passionate individuals dedicated to nurturing the next generation of engineers and tech enthusiasts. Our journey began with a vision to empower budding engineers with knowledge, skills, and resources to excel in their chosen fields.</p>
@@ -147,6 +179,8 @@ const LandingPage = () => {
                 </div>
             </div>
         </div>
+
+
         {/* Perks */}
 
         <div className='p-8'>
@@ -158,10 +192,10 @@ const LandingPage = () => {
                 <li className='list-disc'>Connect with a vibrant community of fellow budding engineers.</li>
             </ul>
 
-            <div className='flex flex-wrap justify-center mt-8'>
+            <div className='flex w-full flex-wrap justify-center mt-8'>
                 {
                     list.map(lists => (
-                        <div key={lists.id} className='bg-slate-200 w-[80%] px-12 py-12 mx-4 my-4 flex flex-col justify-start rounded-lg'>
+                        <div key={lists.id} className='bg-slate-200 w-[90%] px-12 py-12 mx-4 my-4 flex flex-col justify-start rounded-lg'>
                             <div>
                                 <img src={lists.img} />
                             </div>
@@ -170,6 +204,63 @@ const LandingPage = () => {
                         </div>
                     ))
                 }
+            </div>
+        </div>
+
+        {/* About Us */}
+        <div className='mt-8'>
+            <div className='p-6'>
+                <h2 className='border-b-2 border-b-blue-500 inline-block font-bold'>Supported By</h2>
+                <div className='pt-6'>
+                    <h2 className='font-bold text-xl'>Ideation Innovation & Incubation (I-3) Foundation</h2>
+                    <p className='text-sm pt-4'>Ideation Innovation & Incubation (I-3) Foundation (I3F), a section 8 company is an umbrella organization at IIT (BHU), Varanasi for fostering an entrepreneurial ecosystem and nurturing start-ups. It provide ‘Start to Scale’ support for entrepreneurship and facilitates research activities to convert into commercial ventures..</p>
+                </div>
+                <div className='mt-6 relative'>
+                    <h2 className='absolute text-white left-2 top-2 font-bold text-lg'>IIT BHU</h2>
+                    <img className='rounded-md' src={banner} />
+                </div>
+            </div>
+        </div>
+
+        {/* Advisory Team */}
+        <div className='my-8 p-2'>
+            <h1 className='font-bold text-2xl'>Our advisory Team</h1>
+            <div className='flex flex-wrap justify-evenly p-2 pb-8'>
+                {
+                    list2.map(lists => (
+                        <div className='bg-slate-100 p-6 my-2 rounded-lg flex flex-wrap '>
+                            <div className='flex'>
+                                <div className='w-[30%]'>
+                                    <div className='relative'>
+                                        <img className="w-20" src={lists.img} />
+                                        <img className='absolute z-50 bottom-[-10px] left-[-16px] w-8' src={mask} />
+                                    </div>
+                                </div>
+                                <div className='w-[70%]'>
+                                    <div className='text-sm pb-4'>{lists.about}</div>
+                                    <div className=''>{lists.disc}</div>
+                                    <div className='font-bold'>- {lists.name}</div>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+
+            </div>
+        </div>
+
+        {/* Footer */}
+
+        <div className='mt-4'>
+
+
+            <div className='relative'>
+                <div className='flex justify-center '>
+                    <div className='bg-white absolute top-[-50px] rounded-lg'>
+                        <EmailSection padding={`p-0`} />
+                    </div>
+                </div>
+                <Footer paddingtop={`pt-48`} />
             </div>
         </div>
 

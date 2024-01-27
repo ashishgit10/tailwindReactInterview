@@ -37,24 +37,15 @@ const Resource = () => {
         img: require("../../assets/Landing/ResImg/pic2.png"),
         disc: "Explore opportunities from across the globe to learn, showcase skills, gain CV points, & get hired by your dream company."
     },
-    {
-        id: 7,
-        title: "Backend Development",
-        img: require("../../assets/Landing/ResImg/pic3.png"),
-        disc: "Explore opportunities from across the globe to learn, showcase skills, gain CV points, & get hired by your dream company."
-    },
-    {
-        id: 8,
-        title: "Backend Development",
-        img: require("../../assets/Landing/ResImg/pic4.png"),
-        disc: "Explore opportunities from across the globe to learn, showcase skills, gain CV points, & get hired by your dream company."
-    },
+   
 
     ]
     return (
         <div className='p-10'>
+        <div className='md:max-w-screen-lg md:m-auto'>
+
             <div>
-                <h2 className='text-blue-700 font-bold text-2xl'>Resource</h2>
+                <h2 className='text-blue-700 font-bold text-2xl md:text-3xl'>Resource</h2>
                 <h3 className='text-sm pt-2'>Handpicked content for all budding learners.</h3>
             </div>
             <div className='flex justify-around items-center flex-wrap'>
@@ -64,6 +55,7 @@ const Resource = () => {
                     )) 
                 }
             </div>
+        </div>
         </div>
     )
 }

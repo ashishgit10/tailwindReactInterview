@@ -23,14 +23,14 @@ export const LandingPageAfterLogin = () => {
       <div>
         <Resource />
       </div>
-      <div className='drop-shadow-xl bg-white'>
+      <div className='drop-shadow-xl bg-white p-10'>
         <EventSection />
       </div>
       <div>
-        <EmailSection />
+        <EmailSection padding={`p-10`}/>
       </div>
       <div>
-        <Footer />
+        <Footer paddingtop={`pt-2`} />
       </div>
     </>
   )
