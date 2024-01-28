@@ -6,7 +6,7 @@ const Compiler = () => {
 
 
 
-            <div className="lg:w-[606px] pb-10 bg-[#2A2A2A] rounded-lg mt-10">
+            <div className="w-[100%] pb-10 bg-[#2A2A2A] rounded-lg mt-10">
                 <div className="[background:linear-gradient(93.03deg,#7dfc89,rgba(6,_225,_255,_100%))] w-full h-[36px] rounded-t-lg flex justify-start items-baseline ">
 
                     <div className="flex ml-5 mt-[15px] gap-x-3 justify-start items-baseline">
@@ -16,32 +16,32 @@ const Compiler = () => {
                     </div>
                 </div>
                 <ol className="m-0 font-inherit text-inherit pl-[21px]">
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span>// Online C++ compiler to run C++ program online</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white">{`#include <iostream>`}</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white">&nbsp;</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white">{`int main() {`}</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white">{`    `}</span>
                         <span className="text-dimgray-200">// Write C++ code here</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white">{`    std::cout << "Hello world!";`}</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white"></span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white"> return 0;</span>
                     </li>
-                    <li className="text-[#6A6A6A]">
+                    <li className="text-[#6A6A6A] list-none">
                         <span className="text-white">{`}`}</span>
                     </li>
                 </ol>

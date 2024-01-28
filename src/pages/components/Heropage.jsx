@@ -46,12 +46,12 @@ const Heropage = () => {
         <div className='w-full'>
             <div className='flex justify-center items-center p-4 md:pt-6 flex-col md:flex-row md:max-w-screen-lg md:m-auto'>
 
-                <div className='md:w-[50%]'>
-                    <img src={hero} />
+                <div className='md:w-[45%]'>
+                    <img className='w-[100%]' src={hero} />
                 </div>
-                <div className='md:w-[50%]'>
+                <div className='md:w-[55%]'>
                     <div className='text-center'>
-                        <h2 className='text-[#4E4FEB] text-xl font-bold'>Find the best courses, wherever they exist</h2>
+                        <h2 className='text-[#4E4FEB] text-xl md:text-4xl font-bold'>Find the best courses, wherever they exist</h2>
                         <h3 className='py-2 font-semibold'>7000+ Course Are Available Courses from Top Institutions And Mentors.</h3>
                     </div>
                     <div className=' flex drop-shadow-md bg-white rounded-lg py-2 px-6 items-center '>
@@ -59,7 +59,7 @@ const Heropage = () => {
                         <input className='px-6 border-none bg-transparent outline-none placeholder-gray-500' type='text' placeholder='Eg. Best UI/UX Course' />
                     </div>
                     <div className='pt-8 md:pt-4'>
-                        <h4>Or browse by subject or language</h4>
+                        <h4 className='font-bold'>Or browse by subject or language</h4>
                         <div className='flex flex-wrap justify-center'>
                             {
                                 list.map(lists => (
